@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="container">
+        <div class="screen">
+            <p class="calculation"></p>
+            <p class="total"></p>
+        </div>
+        <div class="subcontainer cancel"> <button class="buttonclc" onclick="clearone();">❌Delete</button></div>
+        <div class="subcontainer cancel"> <button class="buttonclc" onclick="clearall();">AC</button></div>
+        <div class="subcontainer"> <button class="button" onclick="input('1');">1</button></div>
+        <div class="subcontainer"> <button class="button" onclick="input('2');">2</button></div>
+        <div class="subcontainer"> <button class="button" onclick="input('3');">3</button></div>
+        <div class="subcontainer"> <button class="button opbtn" onclick="input('+');">+</button></div>
+        <div class="subcontainer"> <button class="button" onclick="input('4');">4</button></div>
+        <div class="subcontainer"> <button class="button" onclick="input('5');">5</button></div>
+        <div class="subcontainer"> <button class="button" onclick="input('6');">6</button></div>
+        <div class="subcontainer"> <button class="button opbtn" onclick="input('-');">-</button></div>
+        <div class="subcontainer"> <button class="button" onclick="input('7');">7</button></div>
+        <div class="subcontainer"> <button class="button" onclick="input('8');">8</button></div>
+        <div class="subcontainer"> <button class="button" onclick="input('9');">9</button></div>
+        <div class="subcontainer"> <button class="button opbtn" onclick="input('/');">/</button></div>
+        <div class="subcontainer"> <button class="button" onclick="input('.');">.</button></div>
+        <div class="subcontainer"> <button class="button" onclick="input('0');">0</button></div>
+        <div class="subcontainer btneql"> <button class="buttoneql" onclick="calculate();">=</button></div>
+        <div class="subcontainer"> <button class="button opbtn" onclick="input('*');">*</button></div> 
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
